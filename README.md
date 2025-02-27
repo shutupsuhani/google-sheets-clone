@@ -1,84 +1,31 @@
-Google Sheets Clone
+#Google Sheets Clone
 -
-
 Overview
--
-This project aims to develop a web application that closely mimics the user interface and core functionalities of Google Sheets. The application provides a spreadsheet-like interface with support for mathematical functions, data entry, validation, and essential UI interactions such as drag-and-drop functionality and cell dependencies.
+This project aims to develop a web-based spreadsheet application that closely resembles Google Sheets in terms of UI, functionality, and user interactions. The application provides a spreadsheet-like interface with support for mathematical operations, data validation, formula execution, and essential UI interactions such as drag-and-drop functionality and cell dependencies.
 
-Features
--
+Key Features
 1. Spreadsheet Interface
-
--Mimic Google Sheets UI: The design closely resembles Google Sheets, including the toolbar, formula bar, and cell structure.
-
--Drag Functions: Users can drag cell content, formulas, and selections similar to Google Sheets.
-
--Cell Dependencies: Formulas update dynamically when referenced cells change.
-
--Basic Cell Formatting: Supports bold, italics, font size, and color changes.
-
--Row & Column Management: Users can add, delete, and resize rows and columns.
+✅ Google Sheets-Like UI: Intuitive design with a toolbar, formula bar, and structured cells.
+✅ Cell Dependencies: Formulas update dynamically when referenced cells change.
 
 2. Mathematical Functions
+Supports essential spreadsheet calculations, including:
 
-The following mathematical functions are implemented:
-
-SUM: Calculates the sum of a range of cells.
-
-AVERAGE: Computes the average value of a range.
-
-MAX: Finds the maximum value in a range.
-
-MIN: Finds the minimum value in a range.
-
-COUNT: Counts the number of numerical values in a range.
-
+SUM: Computes the total of a selected range.
+AVERAGE: Calculates the mean value of a range.
+MAX / MIN: Finds the highest and lowest values in a given range.
+COUNT: Determines the number of numerical values in a range.
 3. Data Quality Functions
+Enhances data accuracy and organization through:
 
-The following functions enhance data quality:
-
-TRIM: Removes leading and trailing whitespace.
-
-UPPER: Converts text to uppercase.
-
-LOWER: Converts text to lowercase.
-
-REMOVE_DUPLICATES: Eliminates duplicate rows in a selected range.
-
-FIND_AND_REPLACE: Searches and replaces text in a specified range.
-
+TRIM: Removes leading and trailing whitespace from text.
+UPPER / LOWER: Converts text to uppercase or lowercase.
+REMOVE_DUPLICATES: Eliminates duplicate rows from a selected range.
+FIND_AND_REPLACE: Allows users to search for and replace specific text within a range.
 4. Data Entry & Validation
+✅ Supports multiple data types (numbers, text, dates).
+✅ Built-in validation to ensure numeric cells only contain valid numerical values.
 
-Supports various data types: numbers, text, dates.
-
-Implements validation to ensure numeric cells only contain numbers.
-
-5. Testing
-
-Users can test functions with their own data.
-
-Function execution results are displayed clearly.
-
-Bonus Features (if implemented)
-
-Additional mathematical and data quality functions.
-
-Support for complex formulas and cell referencing (relative and absolute references).
-
-Save and load functionality for spreadsheets.
-
-Data visualization features such as charts and graphs.
-
-Evaluation Criteria
-
-UI Fidelity: How closely the interface and interactions match Google Sheets.
-
-Functionality: Completeness and correctness of implemented features.
-
-Accuracy: Ensuring calculations and data quality functions work correctly.
-
-Usability: Intuitiveness and ease of use.
-
-Code Quality: Maintainability and best coding practices.
-
-Bonus Features: Extra functionalities implemented.
+5. Real-Time Testing & Execution
+✅ Users can test functions with their own data.
+✅ Function results are displayed dynamically within the interface.
